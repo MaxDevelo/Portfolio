@@ -1,0 +1,23 @@
+.block-skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 60%;
+  padding:50px;
+  border-radius: 20px;
+  box-shadow: white 0px 0px 10px 0px;
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+    img {
+      width: 100px;
+      border-radius: 10px;
+    }
+  }
+}

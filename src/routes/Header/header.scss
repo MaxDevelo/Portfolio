@@ -1,0 +1,39 @@
+@import "../../assets/styles/colors";
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: $main-background-color;
+  color: #ffffff;
+  font-size: 1.5rem;
+  border-bottom: white 2px solid;
+  flex-direction: row;
+  nav {
+    display: flex;
+    align-items: flex-end;
+    ul {
+      display: flex;
+      list-style: none;
+
+      li {
+        margin-left: 2rem;
+        a {
+          text-decoration: none;
+          color: $main-text-color;
+          &:hover {
+            color: $main-background-second-color;
+          }
+        }
+      }
+    }
+  }
+}
