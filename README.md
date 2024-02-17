@@ -20,6 +20,8 @@ npm run dev
 
 ### V.0.1.0
 - Init Project and README
+### V.0.1.5
+- structure folders + add home page + install dependencies (sass, json-loader)
 
 ## License
 This project is licensed under the MIT License - see the [LiCENSE](./LICENSE) file for details
